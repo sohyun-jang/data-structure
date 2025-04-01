@@ -1,0 +1,26 @@
+# 생성자 없이 일반 계산기 class 진행
+class calculator:
+
+    def add(self, a, b):
+        self.a = a
+        self.b = b
+        result = self.a + self.b
+        return result
+    
+    def sub(self, a, b):
+        self.a = a
+        self.b = b
+        result = self.a - self.b
+        return result
+
+def main():
+    cal = calculator()
+    print("1+2 is", end=' ')
+    print(cal.add(1,2))
+    print("1-2 is", end=' ')
+    print(cal.sub(1,2))
+
+if __name__ == '__main__':
+    main()
+
+    
