@@ -94,20 +94,6 @@ class LinkedList: # Linked list class
         self.head = self.tail
         self.tail = temp
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 linkedList = LinkedList()
 linkedList.append(10)
 linkedList.append(20)
